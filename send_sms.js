@@ -1,8 +1,8 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
 // Reminder to use env variables before deploy to prod
-const accountSid = 'ACcbb908da0a45c8702a2eb36d78d93592';
-const authToken = '6577391241ce4e5a2b76f29b8956f349';
+const accountSid = 'TWILIO_ACCOUNT_SID';
+const authToken = 'TWILIO_AUTH_TOKEN';
 const client = require('twilio')(accountSid, authToken);
 
 client.messages
